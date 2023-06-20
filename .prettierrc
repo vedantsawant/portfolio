@@ -1,0 +1,10 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "printWidth": 120,
+  "endOfLine": "auto",
+  "trailingComma": "all",
+  "tailwindConfig": "tailwind.config.js",
+  "tailwindFunctions": ["tw"]
+}
