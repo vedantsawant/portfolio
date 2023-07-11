@@ -1,4 +1,4 @@
-// File: /Users/vsawant/Desktop/Vedant/portfolio/src/app/page.tsx
+// File: C:\Users\vedan\OneDrive\Desktop\portfolio\src\app\page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
@@ -15,6 +15,7 @@ checkFields<Diff<{
   fetchCache?: 'auto' | 'force-no-store' | 'only-no-store' | 'default-no-store' | 'default-cache' | 'only-cache' | 'force-cache'
   preferredRegion?: 'auto' | 'global' | 'home' | string | string[]
   runtime?: 'nodejs' | 'experimental-edge' | 'edge'
+  maxDuration?: number
   
   metadata?: any
   generateMetadata?: Function
